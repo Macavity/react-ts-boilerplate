@@ -1,17 +1,20 @@
-
-import React from "react";
+///<reference path="../typings/browser.d.ts"/>
 
 interface IProps {
-
+    prop1:string;
 }
 
 interface IState {
-
+    visible?:boolean;
 }
 
 export default class BoilerplateComponent extends React.Component<IProps, IState> {
     constructor(props:IProps) {
         super(props);
+
+        this.state = {
+            visible: true
+        }
     }
 
     render() {
@@ -19,6 +22,7 @@ export default class BoilerplateComponent extends React.Component<IProps, IState
         return (
             <div>
                 Component Content
-            </div>);
+            </div>
+        );
     }
 }
