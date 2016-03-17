@@ -1,0 +1,31 @@
+{
+  "name": "react-ts-boilerplate",
+  "version": "0.1.0",
+  "description": "A React.js boilerplate for TypeScript",
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "typescript",
+    "boilerplate"
+  ],
+  "scripts": {
+    "build": "browserify --debug src/app.tsx > build/app.js",
+    "dist": "browserify src/app.tsx > dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Macavity/react-component-filtered-list.git"
+  },
+  "author": "Alexander Pape <a.pape@paneon.de>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-uglify": "^1.0.1"
+  }
+}
