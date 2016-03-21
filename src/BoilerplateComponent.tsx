@@ -1,4 +1,3 @@
-///<reference path="../typings/browser.d.ts"/>
 
 interface IProps {
     prop1:string;

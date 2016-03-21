@@ -8,8 +8,9 @@
       "experimentalDecorators": true
   },
   "files": [
-      "./typings/browser.d.ts",
-      "./js/app.ts"
+    "./typings/browser.d.ts",
+    "./src/app.tsx",
+    "./src/BoilerplateComponent.tsx"
   ],
   "compileOnSave": false,
   "atom": {
